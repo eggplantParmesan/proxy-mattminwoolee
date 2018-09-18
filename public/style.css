@@ -1,0 +1,20 @@
+#ProductInfo {
+  border: 2px solid black;
+  display: block;
+}
+
+#CheckoutPanel {
+  border: 2px solid black;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+#RelatedProducts {
+  border: 2px solid black;
+  margin: 10%;
+  display: block;
+}
+
+#Reviews {
+  border: 2px solid black;
+}
