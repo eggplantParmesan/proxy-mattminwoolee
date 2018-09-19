@@ -1,11 +1,14 @@
 #ProductInfo {
   border: 2px solid black;
-  display: block;
+  width: 60%;
+  display: inline-block;
+  margin: 3%;
 }
 
 #CheckoutPanel {
   border: 2px solid black;
-  margin-left: 5px;
+  width: 20%;
+  /* margin-left: 5px; */
   display: inline-block;
 }
 
@@ -17,4 +20,5 @@
 
 #Reviews {
   border: 2px solid black;
+  margin: 2%;
 }
