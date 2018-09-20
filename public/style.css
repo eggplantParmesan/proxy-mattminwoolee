@@ -1,24 +1,37 @@
+body {
+  width: 98%;
+}
+
+#NavBar {
+  width: 100vmax;
+  height: 25vmin;
+}
+
+#NavBar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#TopDisplay {
+  margin: 3vmin auto;
+  display: flex;
+  width: 96%;
+  justify-content: center;
+}
+
 #ProductInfo {
-  border: 2px solid black;
-  width: 60%;
-  display: inline-block;
-  margin: 3%;
+  width: 81vw;
 }
 
 #Checkout {
-  border: 2px solid black;
-  width: 20%;
-  /* margin-left: 5px; */
-  display: inline-block;
+  width: 19vw;
 }
 
 #RelatedProducts {
-  border: 2px solid black;
-  margin: 10%;
   display: block;
 }
 
 #Reviews {
-  border: 2px solid black;
-  margin: 2%;
+  margin-left: 3vmin;
 }
