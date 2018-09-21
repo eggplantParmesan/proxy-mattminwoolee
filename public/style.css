@@ -16,7 +16,7 @@ body {
 #TopDisplay {
   margin: 3vmin auto;
   display: flex;
-  width: 96%;
+  width: 95%;
   justify-content: center;
 }
 
