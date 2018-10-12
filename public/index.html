@@ -9,24 +9,25 @@
     <div id="NavBar"><img src="https://s3-us-west-1.amazonaws.com/mattminwoolee-checkout/images/navbar.png"></div>
     <div id="TopDisplay">
       <div id="ProductInfo"> This is the product Info</div>
-      <div id="Checkout"> This is the checkout panel</div>
+      <!-- <div id="Checkout"> This is the checkout panel</div> -->
     </div>
-    <div id="RelatedProducts"> This is the related products</div>
-    <div id="Reviews"> This is the Reviews</div>
+    <!-- <div id="RelatedProducts"> This is the related products</div>
+    <div id="Reviews"> This is the Reviews</div> --> -->
 
     <!-- Scripts -->
     <script src="/lib/react.development.js"></script>
     <script src="/lib/react-dom.development.js"></script>
 
-    <!-- Bundle.js -->
-    <script src="https://s3-us-west-1.amazonaws.com/eggplantParmesan/productInfo/bundle.js"></script>
+    <!-- Bundle.js  -->
+    <script src="https://s3-us-west-1.amazonaws.com/eggplantparmesan/bundle.js"></script>
+    <!-- <script src="https://s3-us-west-1.amazonaws.com/eggplantparmesan/bundle.js"></script> -->
     <!-- <script src="https://s3-us-west-1.amazonaws.com/mattminwoolee-checkout/bundle/bundle.js"></script>
     <script src="https://s3.amazonaws.com/fec-proxy/bundle.js"></script>
     <script src="https://s3-us-west-1.amazonaws.com/avh-fec-component/bundle.js"></script> -->
     
     <script>
       ReactDOM.render(
-        React.createElement(relatedItems), document.getElementById('RelatedProducts')
+        React.createElement(ProductInfo), document.getElementById('ProductInfo')
       );
     </script>
   </body>

@@ -1,0 +1,48 @@
+config:
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 15
+      arrivalRate: 10
+      rampTo: 50
+      name: "Warm up the application"
+    - duration: 30
+      arrivalRate: 10
+      name: "Sustained max load"
+
+scenarios:
+  - flow:
+    - get:
+        url: "/cruddy/{{$randomNumber(1, 10000000)}}"
+  
+  
+# scenarios:
+#   - flow:
+#     # - loop:
+#     #   - get:
+#     #       url: "/cruddy/{{$randomNumber(1, 10000000)}}"
+#     # count: 100
+#     - loop:
+#       - post:
+#           url: "/cruddy"
+#     count: 100
+
+#  - duration: 15
+#       arrivalRate: 10
+#       rampTo: 50
+#       name: "Warm up the application"
+#     - duration: 30
+#       arrivalRate: 100
+#       name: "Sustained max load"
+# config:
+#   target: 'https://artillery.io'
+#   phases:
+#     - duration: 60
+#       arrivalRate: 20
+#   defaults:
+#     headers:
+#       x-my-service-auth: '987401838271002188298567'
+# scenarios:
+#   - flow:
+#     - get:
+#         url: "/docs"
+
